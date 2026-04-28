@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+    <Category name="Autoclave Liners">
+        <Product name="High-Temp Plastic Liners">
+            <Feature>Heat resistant up to 140°C</Feature>
+            <Feature>Available in lightweight 30 kg rolls</Feature>
+            <Feature>Ideal for sterilizing hazardous medical waste</Feature>
+        </Product>
+        <Product name="Textile Liners">
+            <Feature>Crafted from durable polyester and cotton blends</Feature>
+            <Feature>Lightweight and easy to handle</Feature>
+            <Feature>Cost-effective and eco-friendly</Feature>
+            <Feature>Excellent heat resistance</Feature>
+        </Product>
+        <Product name="Jute/Hessian Liners">
+            <Feature>Strong and heavy-duty</Feature>
+            <Feature>Biodegradable and environmentally friendly</Feature>
+            <Feature>Ideal for waste management systems that do not require shredding</Feature>
+        </Product>
+        <Product name="Woven Plastic Liners">
+            <Feature>Cost-effective compared to Jute liners</Feature>
+            <Feature>Strong and tear-resistant</Feature>
+            <Feature>Lightweight and durable</Feature>
+        </Product>
+    </Category>
+
+    <Category name="Packaging Solutions">
+        <Product name="Bulk Bags">
+            <Feature>High strength and durability</Feature>
+            <Feature>Available in various sizes</Feature>
+            <Feature>Suitable for industrial and agricultural use</Feature>
+        </Product>
+        <Product name="Poly Woven Bags">
+            <Feature>Tear-resistant and moisture-proof</Feature>
+            <Feature>Available in custom sizes and designs</Feature>
+            <Feature>Excellent for transporting heavy materials</Feature>
+        </Product>
+        <Product name="Mesh Bags">
+            <Feature>Lightweight and breathable</Feature>
+            <Feature>Ideal for produce and perishables</Feature>
+            <Feature>Customizable sizes and colors</Feature>
+        </Product>
+        <Product name="Multiwall Paper Sacks">
+            <Feature>Environmentally friendly</Feature>
+            <Feature>High strength and moisture resistance</Feature>
+            <Feature>Suitable for various industrial applications</Feature>
+        </Product>
+    </Category>
+
+    <Category name="Natural &amp; Synthetic Fabrics">
+        <Product name="Hessian (Jute)">
+            <Feature>Environmentally sustainable</Feature>
+            <Feature>Biodegradable and strong</Feature>
+            <Feature>Suitable for industrial packaging</Feature>
+        </Product>
+        <Product name="Calico">
+            <Feature>Lightweight and breathable</Feature>
+            <Feature>Ideal for medical and commercial use</Feature>
+            <Feature>Customizable for various applications</Feature>
+        </Product>
+        <Product name="Poly-Woven Fabrics">
+            <Feature>Tear-resistant and durable</Feature>
+            <Feature>Ideal for industrial packaging</Feature>
+            <Feature>Lightweight and easy to handle</Feature>
+        </Product>
+        <Product name="Woven &amp; Knitted Fabrics">
+            <Feature>Reinforced for heavy-duty applications</Feature>
+            <Feature>Tear-resistant</Feature>
+            <Feature>Available in custom sizes and designs</Feature>
+        </Product>
+    </Category>
+
+    <Category name="Commercial Textiles">
+        <Product name="Bedding">
+            <Feature>Soft and comfortable</Feature>
+            <Feature>Durable for frequent laundering</Feature>
+            <Feature>Suitable for healthcare environments</Feature>
+        </Product>
+        <Product name="Towels">
+            <Feature>High absorbency</Feature>
+            <Feature>Durable and long-lasting</Feature>
+            <Feature>Available in various sizes</Feature>
+        </Product>
+        <Product name="Laundry Bags">
+            <Feature>Tear-resistant</Feature>
+            <Feature>Available in various sizes</Feature>
+            <Feature>Customizable for different needs</Feature>
+        </Product>
+        <Product name="Shower Curtains">
+            <Feature>Water-resistant and easy to clean</Feature>
+            <Feature>Durable for frequent use</Feature>
+            <Feature>Customizable sizes and designs</Feature>
+        </Product>
+    </Category>
+</Products>

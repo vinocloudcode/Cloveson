@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <!-- Tile Colors -->
+      <square70x70logo src="/images/icons/icon2-512x512.png"/>
+      <square150x150logo src="/images/icons/icon2-512x512.png"/>
+      <square310x310logo src="/images/icons/icon2-512x512.png"/>
+      <wide310x150logo src="/images/icons/icon2-512x512.png"/>
+
+      <!-- Background Color (matches sustainability theme) -->
+      <TileColor>#007E3A</TileColor>
+
+      <!-- Notification Settings -->
+      <msTileNotification>
+        <logourl src="/static/images/notification-logo.png"/>
+        <frequency>30</frequency> <!-- Update frequency in minutes -->
+      </msTileNotification>
+
+      <!-- App Name for Tiles -->
+      <name>Cloves Inc.</name>
+    </tile>
+
+    <!-- Optional: Configure notifications -->
+    <notification>
+      <polling-uri src="https://www.clovesinc.com/notifications "/>
+      <polling-uri2 src="https://www.clovesinc.com/notifications2 "/>
+      <polling-uri3 src="https://www.clovesinc.com/notifications3 "/>
+      <polling-uri4 src="https://www.clovesinc.com/notifications4 "/>
+      <polling-uri5 src="https://www.clovesinc.com/notifications5 "/>
+      <cycle>1</cycle>
+    </notification>
+  </msapplication>
+</browserconfig>
