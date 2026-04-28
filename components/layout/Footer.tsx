@@ -220,13 +220,14 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
           <div className="flex justify-center items-center">
             <span className="text-xs text-gray-500">
-              Developed with ❤️ by{' '}
+              Developed for Cloveson with ❤️ 
+              {/* by{' '}
               <Link
                 href="https://abi-portfoilio.vercel.app/"
                 className="text-primary-400 font-medium hover:underline"
               >
-                Vinothini Sivaprakasam
-              </Link>
+                Cloveson
+              </Link> */}
             </span>
           </div>
         </div>
