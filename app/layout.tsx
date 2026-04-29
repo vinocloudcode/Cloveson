@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title:
-    'Clover Inc – Premium Industrial Packaging | Autoclave Liners & Sterilization Solutions',
+    'Cloveson – Premium Industrial Packaging | Autoclave Liners & Sterilization Solutions',
   description:
     'Leading supplier of industrial packaging solutions including autoclave liners and sterilization bags for medical, laboratory, and industrial applications across the India. High-quality, compliant, and customizable solutions.',
   keywords: [
@@ -46,17 +46,17 @@ export const metadata = {
     'Premium packaging materials made in India',
   ],
   authors: [
-    { name: 'Clover Inc', url: 'https://cloverinc.org' },
-    { name: 'Clover Inc Packaging Team', url: 'https://cloverinc.org/about' },
+    { name: 'Cloveson', url: 'https://cloveson.com' },
+    { name: 'Cloveson Packaging Team', url: 'https://cloveson.com/about' },
   ],
-  creator: 'Clover Inc',
-  publisher: 'Clover Inc',
+  creator: 'Cloveson',
+  publisher: 'Cloveson',
   openGraph: {
     title:
       'Cloveson | Premium Industrial Packaging & Autoclave Solutions | India Made',
     description:
       'Leading supplier of industrial packaging solutions including autoclave liners and sterilization bags for medical, laboratory, and industrial applications across the India. High-quality, compliant, and customizable solutions.',
-    url: 'https://cloverinc.org/products',
+    url: 'https://cloveson.com/products',
     siteName: 'Cloveson',
     locale: 'en_US',
     images: [
@@ -64,7 +64,7 @@ export const metadata = {
         url: 'https://i.postimg.cc/gJb5q8P1/meta1.jpg',
         width: 1200,
         height: 630,
-        alt: 'American-Made Autoclave Liners – Clover Inc',
+        alt: 'American-Made Autoclave Liners – Cloveson',
         type: 'image/jpeg',
         secureUrl: 'https://i.postimg.cc/gJb5q8P1/meta1.jpg',
       },
@@ -86,24 +86,24 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Clover Inc | India-Made Industrial Packaging & Autoclave Solutions',
+    title: 'Cloveson| India-Made Industrial Packaging & Autoclave Solutions',
     description:
       'American-made heat-resistant autoclave liners and sterilization bags for industrial, laboratory, and medical facilities nationwide. Safe, FDA-compliant, and customizable solutions.',
     creator: '@cloverinc',
     images: [
       {
         url: 'https://i.postimg.cc/gJb5q8P1/meta1.jpg',
-        alt: 'India-Made Autoclave Liners – Clover Inc Premium Solutions',
+        alt: 'India-Made Autoclave Liners – Cloveson Premium Solutions',
         width: 1200,
         height: 630,
       },
     ],
     site: '@cloverinc',
     app: {
-      name: 'Clover Inc',
+      name: 'Cloveson',
       url: {
-        iphone: 'https://cloverinc.org',
-        ipad: 'https://cloverinc.org',
+        iphone: 'https://cloveson.com',
+        ipad: 'https://cloveson.com',
       },
     },
   },
@@ -119,15 +119,15 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: 'https://cloverinc.org/products',
+    canonical: 'https://cloveeson.com/products',
     languages: {
-      'en-US': 'https://cloverinc.org/products',
+      'en-US': 'https://cloveson.com/products',
     },
     types: {
       'application/rss+xml': '/rss/products.xml',
     },
   },
-  metadataBase: new URL('https://cloverinc.org'),
+  metadataBase: new URL('https://cloveson.com'),
   icons: {
     icon: '/cicon.ico',
     shortcut: '/images/icons/icon2-512x512.png',
@@ -144,7 +144,7 @@ export const metadata = {
       { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/favicon-16x16.png' },
     ],
   },
-  applicationName: 'Clover Inc',
+  applicationName: 'Cloveson',
   category:
     'Industrial Packaging, Medical Packaging, Laboratory Supplies, India Manufacturing',
   generator: 'Next.js',
@@ -168,24 +168,24 @@ export const metadata = {
   },
   appleWebApp: {
     capable: true,
-    title: 'Clover Inc',
+    title: 'Cloveson',
     statusBarStyle: 'black-translucent',
   },
   other: {
     // Enhanced OpenGraph tags
-    'og:title': 'Clover Inc | Industrial Packaging Solutions',
+    'og:title': 'Cloveson | Industrial Packaging Solutions',
     'og:description':
       'American-manufactured premium industrial packaging solutions for medical, laboratory, and industrial facilities nationwide. FDA-compliant, sustainable, made in the India.',
     'og:image': 'https://i.postimg.cc/gJb5q8P1/meta1.jpg',
-    'og:image:alt': 'India-Made Autoclave Liners – Clover Inc',
-    'og:url': 'https://cloverinc.org/products',
+    'og:image:alt': 'India-Made Autoclave Liners – Cloveson',
+    'og:url': 'https://cloveson.com/products',
     'og:type': 'website',
-    'og:site_name': 'Clover Inc',
+    'og:site_name': 'Cloveson',
     'og:locale': 'en_US',
 
     // Twitter enhanced tags
     'twitter:card': 'summary_large_image',
-    'twitter:title': 'Clover Inc | Industrial Packaging Solutions',
+    'twitter:title': 'Cloveson | Industrial Packaging Solutions',
     'twitter:description':
       'American-manufactured heat-resistant autoclave liners and sterilization bags for medical and industrial applications nationwide.',
     'twitter:image': 'https://i.postimg.cc/gJb5q8P1/meta1.jpg',
@@ -204,8 +204,8 @@ export const metadata = {
 
     // Structured data hints with enhanced geo targeting
     'schema:type': 'Organization',
-    'schema:name': 'Clover Inc',
-    'schema:url': 'https://cloverinc.org',
+    'schema:name': 'Cloveson',
+    'schema:url': 'https://cloveson.com',
     'schema:logo': '/images/icons/icon2-512x512.png',
     'schema:description': 'Premium Industrial Packaging Solutions',
     'schema:areaServed': 'United States, North America',
@@ -215,8 +215,8 @@ export const metadata = {
     address: '123 Industrial Park, New York, NY, United States',
     phone: '+1-800-555-0199',
     email: 'info@cloverinc.org',
-    site_name: 'Clover Inc - India Manufacturing',
-    copyright: '© 2024 Clover Inc. Made in India. All rights reserved.',
+    site_name: 'Cloveson- India Manufacturing',
+    copyright: '© 2026 Cloveson. Made in India. All rights reserved.',
 
     // Enhanced keywords for geographic targeting
     keywords:
