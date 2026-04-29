@@ -98,12 +98,12 @@ export default function ProductsPage() {
         Explore premium-grade solutions tailored for design and performance
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8 px-4 sm:px-6 md:px-8">
+      <div className="flex justify-center gap-8 px-4">
         {products.map((product, index) => (
         <div
           key={index}
           ref={(el) => (cardRefs.current[index] = el)}
-          className={`group rounded-2xl shadow-lg overflow-hidden border border-gray-200 transition-transform duration-500 hover:scale-[1.03] bg-white hover:bg-[#00B14F] hover:shadow-2xl ${
+          className={`group rounded-2xl shadow-lg overflow-hidden border border-gray-200 transition-transform duration-500 hover:scale-[1.03] bg-white hover:bg-[#00B14F] hover:shadow-2xl max-w-sm w-full ${
           visible[index] ? 'slide-in' : 'before-slide-in'
           }`}
           style={{
@@ -112,7 +112,7 @@ export default function ProductsPage() {
           }}
         >
           {/* Image Section */}
-          <div className="h-48 sm:h-52 md:h-56 w-full relative overflow-hidden">
+          <div className="h-56 sm:h-60 md:h-64 w-full relative overflow-hidden">
           <Image
             src={product.image.replace('/public', '')}
             alt={product.title}
@@ -122,7 +122,7 @@ export default function ProductsPage() {
           </div>
 
           {/* Content Section */}
-          <div className="p-4 sm:p-5 flex flex-col justify-between min-h-[320px] sm:min-h-[360px] md:min-h-[400px] transition-colors duration-500">
+          <div className="p-3 sm:p-4 flex flex-col justify-between min-h-[280px] sm:min-h-[320px] transition-colors duration-500">
           <div>
             <h3 className="text-lg sm:text-xl font-extrabold tracking-tight text-[#00B14F] mb-2 group-hover:text-white transition-colors duration-300">
             {product.title}
@@ -132,11 +132,11 @@ export default function ProductsPage() {
             </p>
 
             {/* Product Types */}
-            <ul className="text-sm space-y-1 mb-4">
+            <ul className="text-sm space-y-1 mb-3 text-left list-disc pl-5">
             {product.types.map((type, i) => (
               <li
               key={i}
-              className="before:content-['•'] before:mr-2 before:text-[#00B14F] font-medium text-gray-700 group-hover:text-white group-hover:before:text-white transition-all duration-300"
+              className="font-medium text-gray-700 group-hover:text-white transition-all duration-300 text-sm"
               >
               {type}
               </li>
@@ -145,12 +145,14 @@ export default function ProductsPage() {
           </div>
 
           {/* Learn More Button */}
+          <div className="w-full flex justify-center">
           <Link href={`/products#${product.id}`} passHref legacyBehavior>
-            <a className="mt-auto inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-semibold transition-all duration-300 shadow-md bg-[#00B14F] text-white group-hover:bg-white group-hover:text-[#00B14F]">
+            <a className="mt-auto inline-flex items-center justify-center px-1.5 py-0.5 rounded text-sm font-semibold transition-all duration-300 shadow-sm bg-[#00B14F] text-white group-hover:bg-white group-hover:text-[#00B14F] w-fit">
             Learn More
-            <ArrowRight className="ml-2 w-4 h-4" />
+            <ArrowRight className="ml-0.5 w-2.5 h-2.5" />
             </a>
           </Link>
+          </div>
           </div>
         </div>
         ))}
